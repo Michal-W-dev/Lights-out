@@ -1,0 +1,44 @@
+.Cell {
+  height: 150px;
+  width: 150px;
+  border-radius: 1px;
+  background-color: #263238;
+  transition: background-color 0.5s ease-in;
+}
+
+.Cell-lit {
+  background-color: #01a4b9;
+  box-shadow: inset 0 0 40px #00e1ff
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .Cell {
+    height: 110px;
+    width: 110px;
+  }
+  .Cell-lit {
+    box-shadow: inset 0 0 35px #00e1ff
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .Cell {
+    height: 90px;
+    width: 90px;
+  }
+  .Cell-lit {
+    box-shadow: inset 0 0 35px #00e1ff
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Cell {
+    height: 70px;
+    width: 70px;
+  }
+  .Cell-lit {
+    box-shadow: inset 0 0 30px #00e1ff
+  }
+}
